@@ -15,7 +15,7 @@ html, body {
 .hero,
 .cta {
   -webkit-background-size: cover;
-  background-image: url(../img/Screenshot3.svg), linear-gradient(52deg, #42475C 0%, #20222E 71%);
+  background-image: url(../img/heroImage.jpg), linear-gradient(52deg, #42475C 0%, #20222E 71%);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -211,16 +211,15 @@ footer a {
 }
 
 #parallax-1 {
-  background-image: url(../img/Screenshot1.jpg), linear-gradient(52deg, #42475C 0%, #20222E 71%);
+  background: url(../img/background1.jpg), linear-gradient(52deg, #42475C 0%, #20222E 71%);
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  /* position: relative; */
   background-size: cover;
 }
 
 #parallax-2 {
-  background: url(../img/dark-forest-3.svg), linear-gradient(52deg, #42475C 0%, #20222E 71%);
+  background: url(../img/background2.jpg), linear-gradient(52deg, #42475C 0%, #20222E 71%);
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -228,14 +227,11 @@ footer a {
 }
 
 #parallax-3 {
-  background-color: rgba(22, 22, 22, 0.95);
-  background-image: none;
+  background: url(../img/background3.jpg), linear-gradient(52deg, #42475C 0%, #20222E 71%);
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  width: 100%;
-  background-attachment: fixed;
 }
 
 #parallax-4 {
